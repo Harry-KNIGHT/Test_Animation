@@ -30,13 +30,11 @@ struct ContentView: View {
 						.clipShape(Circle())
 						.matchedGeometryEffect(id: "upper", in: nameSpace, properties: .position)
 				}
-				
-
 			}
 
 		}
 		.onTapGesture {
-			withAnimation {
+			withAnimation(.interpolatingSpring(stiffness: 55, damping: 10)) {
 				isFlipped.toggle()
 			}
 		}
