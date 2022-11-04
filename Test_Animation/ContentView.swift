@@ -15,20 +15,26 @@ struct ContentView: View {
 	var body: some View {
 		VStack {
 			if isFlipped {
-				UpperTextAndCircleView(nameSpace: nameSpace)
+				UpperTextAndCircleView(nameSpace: nameSpace, isFlipped: $isFlipped)
 			} else {
 				VStack {
 					Text("EN GROS")
 						.frame(width: 100)
 						.matchedGeometryEffect(id: "text", in: nameSpace)
+					ZStack {
+						Circle()
+							.frame(height: 200)
+							.foregroundColor(isFlipped ? .blue : .orange)
+							.scaleEffect(isFlipped ? 1.3 : 1.0)
 
-					Image(systemName: "pause.fill")
-						.foregroundColor(.white)
-						.font(.custom("", size: fontSize, relativeTo: .largeTitle))
-						.padding(30)
-						.background(.red)
-						.clipShape(Circle())
-						.matchedGeometryEffect(id: "upper", in: nameSpace, properties: .position)
+							.matchedGeometryEffect(id: "upper", in: nameSpace, properties: .position)
+						Image(systemName: "pause.fill")
+							.foregroundColor(.white)
+							.font(.custom("", size: fontSize, relativeTo: .largeTitle))
+
+
+
+					}
 				}
 			}
 

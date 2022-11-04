@@ -12,6 +12,7 @@
 		3C394A32291128EE00A6771C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C394A31291128EE00A6771C /* Assets.xcassets */; };
 		3C394A35291128EE00A6771C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C394A34291128EE00A6771C /* Preview Assets.xcassets */; };
 		3C394A3C29113E2A00A6771C /* UpperTextAndCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C394A3B29113E2A00A6771C /* UpperTextAndCircleView.swift */; };
+		3C5CD78C29154ED800F4E38F /* ScaleEffectAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5CD78B29154ED800F4E38F /* ScaleEffectAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		3C394A31291128EE00A6771C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C394A34291128EE00A6771C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C394A3B29113E2A00A6771C /* UpperTextAndCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperTextAndCircleView.swift; sourceTree = "<group>"; };
+		3C5CD78B29154ED800F4E38F /* ScaleEffectAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleEffectAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				3C394A2D291128ED00A6771C /* Test_AnimationApp.swift */,
 				3C394A2F291128ED00A6771C /* ContentView.swift */,
 				3C394A3B29113E2A00A6771C /* UpperTextAndCircleView.swift */,
+				3C5CD78B29154ED800F4E38F /* ScaleEffectAnimationView.swift */,
 				3C394A31291128EE00A6771C /* Assets.xcassets */,
 				3C394A33291128EE00A6771C /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C394A3C29113E2A00A6771C /* UpperTextAndCircleView.swift in Sources */,
+				3C5CD78C29154ED800F4E38F /* ScaleEffectAnimationView.swift in Sources */,
 				3C394A30291128ED00A6771C /* ContentView.swift in Sources */,
 				3C394A2E291128ED00A6771C /* Test_AnimationApp.swift in Sources */,
 			);
